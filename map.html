@@ -12,6 +12,22 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ilocos Sur Cooperative Bank</title>
+  <style>
+    .map-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+    }
+
+    .map-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+  </style>
 </head>
 
 <body id="home" class="scrollspy">
@@ -67,10 +83,9 @@
   <section id="popular" class="section section-popular scrollspy">
     <div class="container">
       <div class="row">
-        <h4 class="center">
-          <span class="teal-text">Branches</span></h4>
-       <div>
-        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Cibfha2hg7H1RopDxgAWaAzRBjcQ2uDe" width="900" height="550"></iframe>
+        <h4 class="center"><span class="green-text">Branches</span></h4>
+        <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Cibfha2hg7H1RopDxgAWaAzRBjcQ2uDe" width="900" height="550" frameborder="0" style="border:0;" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
        </div>
       </div>
     </div>
