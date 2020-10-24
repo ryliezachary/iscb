@@ -13,3 +13,40 @@
   width: max-content;
   height:auto;
 }
+
+
+nav {
+  height: 100px;
+  line-height: 100px;
+  }
+
+  nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+      height: 100px;
+      line-height: 100px;
+  }
+
+  nav .button-collapse i {
+      height: 100px;
+      line-height: 100px;
+  }
+
+  nav .brand-logo { 
+      font-size: 1.6rem; 
+  }
+
+  @media only screen and (min-width: 601px){
+      nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+          height: 100px;
+          line-height: 100px;
+      }
+  }
+  .logo {
+  display: inline-block;
+  height: 100%;
+  }
+
+  .logo>img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
